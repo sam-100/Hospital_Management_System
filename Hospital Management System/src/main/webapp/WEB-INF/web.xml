@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+	<display-name>Hospital Management System</display-name>
+	<welcome-file-list>
+	<welcome-file>index.html</welcome-file>
+	<welcome-file>index.htm</welcome-file>
+	<welcome-file>index.jsp</welcome-file>
+	<welcome-file>default.html</welcome-file>
+	<welcome-file>default.htm</welcome-file>
+	<welcome-file>default.jsp</welcome-file>
+</welcome-file-list>
+
+	<servlet>
+		<servlet-name>CreateAssistant</servlet-name>
+		<servlet-class>CreateAssistant</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CreateAssistant</servlet-name>
+		<url-pattern>/CreateAssistant</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>Login</servlet-class>
+	</servlet>  
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/Login</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>CreateDoctor</servlet-name>
+		<servlet-class>CreateDoctor</servlet-class>
+	</servlet>  
+	<servlet-mapping>
+		<servlet-name>CreateDoctor</servlet-name>
+		<url-pattern>/CreateDoctor</url-pattern>
+	</servlet-mapping>
+	
+	  <servlet>
+		<servlet-name>CreateMedicine</servlet-name>
+		<servlet-class>CreateMedicine</servlet-class>
+	</servlet>  
+	<servlet-mapping>
+		<servlet-name>CreateMedicine</servlet-name>
+		<url-pattern>/CreateMedicine</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>CreatePatient</servlet-name>
+		<servlet-class>CreatePatient</servlet-class>
+	</servlet>  
+	<servlet-mapping>
+		<servlet-name>CreatePatient</servlet-name>
+		<url-pattern>/CreatePatient</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Discharge</servlet-name>
+		<servlet-class>Discharge</servlet-class>
+	</servlet>  
+	<servlet-mapping>
+		<servlet-name>Discharge</servlet-name>
+		<url-pattern>/Discharge</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Logout</servlet-name>
+		<servlet-class>Logout</servlet-class>
+	</servlet>  
+	<servlet-mapping>
+		<servlet-name>Logout</servlet-name>
+		<url-pattern>/Logout</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>RetrieveDoctor</servlet-name>
+		<servlet-class>RetrieveDoctor</servlet-class>
+	</servlet>  
+	<servlet-mapping>
+		<servlet-name>RetrieveDoctor</servlet-name>
+		<url-pattern>/RetrieveDoctor</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>RetrieveMedicine</servlet-name>
+		<servlet-class>RetrieveMedicine</servlet-class>
+	</servlet>  
+	<servlet-mapping>
+		<servlet-name>RetrieveMedicine</servlet-name>
+		<url-pattern>/RetrieveMedicine</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>RetrievePatients</servlet-name>
+		<servlet-class>RetrievePatients</servlet-class>
+	</servlet>  
+	<servlet-mapping>
+		<servlet-name>RetrievePatients</servlet-name>
+		<url-pattern>/RetrievePatients</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>RetrievePatientsDID</servlet-name>
+		<servlet-class>RetrievePatientsDID</servlet-class>
+	</servlet>  
+	<servlet-mapping>
+		<servlet-name>RetrievePatientsDID</servlet-name>
+		<url-pattern>/RetrievePatientsDID</url-pattern>
+	</servlet-mapping>
+	
+</web-app>
+
+
+
+
+
+
+
+
+
+
+
+
+
